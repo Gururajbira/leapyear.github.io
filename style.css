@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* .container {
+
+    height: 60vh;
+    width: 60vw;
+    background: green;
+    position:absolute;
+    top: 120px;
+    left: 280px;
+    transform: traslate(50%, 50%);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+body h1 {
+    font-size: 50px;
+    position: relative;
+    left: 30rem;
+    top: 13rem;
+}
+
+#year {
+    border: 2px solid rgb(216, 54, 54);
+    width: 300px;
+    height: 50px;
+    margin-left: 32rem;
+    margin-top: 14rem;
+    border-radius: 20px;
+}
+
+#btn {
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    margin-left: 39rem;
+} */
+.container {
+    background-color: rgb(243, 195, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 93.9vh;
+}
+
+form {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 50%;
+    max-width: 600px;
+    height: 50vh;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(43, 40, 40);
+}
+
+form h1 {
+
+    margin-top: 20px;
+    /* background: rgb(211, 209, 209); */
+    border-radius: 10px;
+    text-align: center;
+    color: crimson;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+form input, textarea {
+
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline: none;
+    background: orchid;
+    font-size: 16px;
+    border-radius: 10px;
+    resize: none;
+}
+
+form button {
+    background: white;
+    color: #e65b00;
+    border: 1px solid #afa7a1;
+    padding: 15px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    width: 25%;
+    font-weight: bold;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    transition: all ease .5s;
+    box-shadow: 0px 0px 20px rgb(43, 40, 40);
+}
